@@ -7,16 +7,70 @@
     text-align: center;
   }
   
-  p {
+  .menu-box {
     border: 1px solid black;
     background-color: grey;
-    height: 200px;
+    height: auto;
     margin: 20px 20px 20px 20px;
     padding: 20px 20px 20px 20px;
     font-family: Helvetica;
     color: black;
   }
-  
+
+  p {
+    margin: 0px;
+    clear: both;
+  }
+ 
+  #menu-chicken{
+    margin: 0px;
+    position: relative;
+    float: right;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid black;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 24px;
+    width: fit-content;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #menu-beef{
+    margin: 0px;
+    position: relative;
+    float: right;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid black;
+    background-color: red;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #menu-sushi{
+    margin: 0px;
+    position: relative;
+    float: right;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid black;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    width: fit-content;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
   /* Simple Responsive Framework. */
   .row {
     width: 100%;
